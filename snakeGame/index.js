@@ -78,8 +78,8 @@ window.onload = function() {
         ctx.strokeText("Game Over", centreX, centreY - 160);
         ctx.fillText("Game Over", centreX, centreY - 160);
         ctx.font = "bold 30px sans-serif";
-        ctx.fillText("Perdu couillon", centreX, centreY - 80);
-        ctx.fillText("Space for restart", centreX, centreY - 30);
+        ctx.fillText("You loose", centreX, centreY - 80);
+        ctx.fillText("Press space to continue", centreX, centreY - 30);
         ctx.restore();
     }
 
@@ -265,15 +265,5 @@ window.onload = function() {
 
             snakeDr.setDirection(newDirection);
     });
-
-    
-    // canvas.style.display = "flex";
-    // canvas.style.justifyContent = "center";
-  
-
-    
-   
-    
-    
 
 }
